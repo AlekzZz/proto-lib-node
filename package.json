@@ -1,0 +1,30 @@
+{
+  "name": "proto-mvc",
+  "version": "0.0.1",
+  "description": "Classless extremely lite Prototypal JavaScript Framework, using MVC architectual pattern.",
+  "main": "index.js",
+  "engines": {
+    "node": ">=6.1.0"
+  },
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlekzZz/proto-mvc.git"
+  },
+  "keywords": [
+    "JS",
+    "Tiny",
+    "Framework",
+    "MVC",
+    "Prototypal",
+    "Classless"
+  ],
+  "author": "“Aleksandr <“alekzzz@gmail.com”> (http://roundplus.net)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AlekzZz/proto-mvc/issues"
+  },
+  "homepage": "https://github.com/AlekzZz/proto-mvc#readme"
+}
