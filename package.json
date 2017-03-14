@@ -1,6 +1,6 @@
 {
   "name": "proto-mvc",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Classless extremely lite Prototypal JavaScript Framework, using MVC architectual pattern.",
   "main": "dist/index.js",
   "engines": {
@@ -67,6 +67,7 @@
     "run-sequence": "^1.1.5",
     "sinon": "^1.17.7",
     "sinon-chai": "^2.8.0",
+    "vinyl-buffer": "^1.0.0",
     "vinyl-source-stream": "^1.1.0",
     "watchify": "^3.7.0"
   }

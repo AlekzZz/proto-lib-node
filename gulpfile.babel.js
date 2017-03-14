@@ -5,6 +5,7 @@ import browserify from 'browserify';
 import watchify from 'watchify';
 import babelify from 'babelify';
 import source from 'vinyl-source-stream';
+import buffer from 'vinyl-buffer';
 import uglify from 'gulp-uglify';
 import sequence from 'run-sequence';
 import del from 'del';
@@ -49,7 +50,7 @@ function buildJS(watch) {
     debug: (watch ? true : false),
     cache: {},
     packageCache: {},
-    fullPaths: true
+    fullPaths: false
   };
 
   // initialize whatchify
@@ -65,9 +66,8 @@ function buildJS(watch) {
     stream
       .on('error', handleErrors)
       .pipe(source(config.js.filename))
-      .pipe(() => {
-        
-      })
+      .pipe(buffer())
+      .pipe(uglify())
       .pipe(gulp.dest(config.js.dist));
 
     if (watch) {
