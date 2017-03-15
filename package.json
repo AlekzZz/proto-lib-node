@@ -1,8 +1,8 @@
 {
   "name": "proto-mvc",
-  "version": "0.2.2",
+  "version": "0.3.0",
   "description": "Classless extremely lite Prototypal JavaScript Framework, using MVC architectual pattern.",
-  "main": "dist/index.js",
+  "main": "lib/index.js",
   "engines": {
     "node": ">=6.1.0"
   },

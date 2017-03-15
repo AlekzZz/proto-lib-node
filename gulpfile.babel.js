@@ -67,7 +67,6 @@ function buildJS(watch) {
       .on('error', handleErrors)
       .pipe(source(config.js.filename))
       .pipe(buffer())
-      .pipe(uglify())
       .pipe(gulp.dest(config.js.dist));
 
     if (watch) {
