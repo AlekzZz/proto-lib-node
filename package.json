@@ -1,6 +1,6 @@
 {
   "name": "proto-mvc",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Classless extremely lite Prototypal JavaScript Framework, using MVC architectual pattern.",
   "main": "lib/index.js",
   "engines": {
@@ -63,6 +63,7 @@
     "mocha": "^3.2.0",
     "parallelshell": "^2.0.0",
     "phantomjs-prebuilt": "^2.1.14",
+    "proto-mvc": "^0.3.0",
     "pubsub-js": "^1.5.5",
     "run-sequence": "^1.1.5",
     "sinon": "^1.17.7",

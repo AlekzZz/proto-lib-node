@@ -173,13 +173,13 @@ asn1@~0.2.3:
   version "0.2.3"
   resolved "https://registry.yarnpkg.com/asn1/-/asn1-0.2.3.tgz#dac8787713c9966849fc8180777ebe9c1ddf3b86"
 
+assert-plus@1.0.0, assert-plus@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/assert-plus/-/assert-plus-1.0.0.tgz#f12e0f3c5d77b0b1cdd9146942e4e96c1e4dd525"
+
 assert-plus@^0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/assert-plus/-/assert-plus-0.2.0.tgz#d74e1b87e7affc0db8aadb7021f3fe48101ab234"
-
-assert-plus@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/assert-plus/-/assert-plus-1.0.0.tgz#f12e0f3c5d77b0b1cdd9146942e4e96c1e4dd525"
 
 assert@^1.4.0:
   version "1.4.1"
@@ -1467,8 +1467,8 @@ debug@2.6.1:
     ms "0.7.2"
 
 debug@^2.1.1, debug@^2.2.0:
-  version "2.6.2"
-  resolved "https://registry.yarnpkg.com/debug/-/debug-2.6.2.tgz#dfa96a861ee9b8c2f29349b3bcc41aa599a71e0f"
+  version "2.6.3"
+  resolved "https://registry.yarnpkg.com/debug/-/debug-2.6.3.tgz#0f7eb8c30965ec08c72accfa0130c8b79984141d"
   dependencies:
     ms "0.7.2"
 
@@ -2501,8 +2501,8 @@ http-errors@~1.6.1:
     statuses ">= 1.3.1 < 2"
 
 http-proxy@^1.13.0:
-  version "1.15.2"
-  resolved "https://registry.yarnpkg.com/http-proxy/-/http-proxy-1.15.2.tgz#642fdcaffe52d3448d2bda3b0079e9409064da31"
+  version "1.16.2"
+  resolved "https://registry.yarnpkg.com/http-proxy/-/http-proxy-1.16.2.tgz#06dff292952bf64dbe8471fa9df73066d4f37742"
   dependencies:
     eventemitter3 "1.x.x"
     requires-port "1.x.x"
@@ -2896,9 +2896,10 @@ jsonpointer@^4.0.0:
   resolved "https://registry.yarnpkg.com/jsonpointer/-/jsonpointer-4.0.1.tgz#4fd92cb34e0e9db3c89c8622ecf51f9b978c6cb9"
 
 jsprim@^1.2.2:
-  version "1.3.1"
-  resolved "https://registry.yarnpkg.com/jsprim/-/jsprim-1.3.1.tgz#2a7256f70412a29ee3670aaca625994c4dcff252"
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/jsprim/-/jsprim-1.4.0.tgz#a3b87e40298d8c380552d8cc7628a0bb95a22918"
   dependencies:
+    assert-plus "1.0.0"
     extsprintf "1.0.2"
     json-schema "0.2.3"
     verror "1.3.6"
@@ -3528,7 +3529,13 @@ on-finished@~2.3.0:
   dependencies:
     ee-first "1.1.1"
 
-once@1.x, once@^1.3.0, once@~1.3.0, once@~1.3.3:
+once@1.x, once@^1.3.0:
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/once/-/once-1.4.0.tgz#583b1aa775961d4b113ac17d9c50baef9dd76bd1"
+  dependencies:
+    wrappy "1"
+
+once@~1.3.0, once@~1.3.3:
   version "1.3.3"
   resolved "https://registry.yarnpkg.com/once/-/once-1.3.3.tgz#b2e261557ce4c314ec8304f3fa82663e4297ca20"
   dependencies:
@@ -3781,6 +3788,48 @@ progress@^1.1.8, progress@~1.1.8:
   version "1.1.8"
   resolved "https://registry.yarnpkg.com/progress/-/progress-1.1.8.tgz#e260c78f6161cdd9b0e56cc3e0a85de17c7a57be"
 
+proto-mvc@^0.3.0:
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/proto-mvc/-/proto-mvc-0.3.0.tgz#33cef9f1735899e9685a75a80330e1a0d22fa1e0"
+  dependencies:
+    babel "^6.23.0"
+    babel-core "^6.24.0"
+    babel-eslint "^7.1.1"
+    babel-plugin-syntax-class-properties "^6.5.0"
+    babel-plugin-transform-decorators-legacy "^1.3.4"
+    babel-polyfill "^6.23.0"
+    babel-preset-es2015 "^6.6.0"
+    babel-preset-stage-0 "^6.5.0"
+    babelify "^7.2.0"
+    browserify "^14.1.0"
+    browserify-istanbul "^2.0.0"
+    chai "^3.5.0"
+    del "^2.2.2"
+    eslint "^3.17.1"
+    gulp "^3.8.11"
+    gulp-notify "^3.0.0"
+    gulp-uglify "^2.0.1"
+    gulp-util "^3.0.8"
+    istanbul "^0.4.5"
+    jquery "^3.0.0"
+    karma "^1.5.0"
+    karma-browserify "^5.1.1"
+    karma-coverage "^1.1.1"
+    karma-mocha "^1.3.0"
+    karma-mocha-reporter "^2.2.2"
+    karma-phantomjs-launcher "^1.0.2"
+    karma-sinon-chai "^1.2.4"
+    mocha "^3.2.0"
+    parallelshell "^2.0.0"
+    phantomjs-prebuilt "^2.1.14"
+    pubsub-js "^1.5.5"
+    run-sequence "^1.1.5"
+    sinon "^1.17.7"
+    sinon-chai "^2.8.0"
+    vinyl-buffer "^1.0.0"
+    vinyl-source-stream "^1.1.0"
+    watchify "^3.7.0"
+
 public-encrypt@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/public-encrypt/-/public-encrypt-4.0.0.tgz#39f699f3a46560dd5ebacbca693caf7c65c18cc6"
@@ -3886,8 +3935,8 @@ read-pkg@^1.0.0:
     string_decoder "~0.10.x"
 
 "readable-stream@^2.0.0 || ^1.1.13", readable-stream@^2.0.2, readable-stream@^2.1.0, readable-stream@^2.1.5:
-  version "2.2.3"
-  resolved "https://registry.yarnpkg.com/readable-stream/-/readable-stream-2.2.3.tgz#9cf49463985df016c8ae8813097a9293a9b33729"
+  version "2.2.5"
+  resolved "https://registry.yarnpkg.com/readable-stream/-/readable-stream-2.2.5.tgz#a0b187304e05bab01a4ce2b4cc9c607d5aa1d606"
   dependencies:
     buffer-shims "^1.0.0"
     core-util-is "~1.0.0"
