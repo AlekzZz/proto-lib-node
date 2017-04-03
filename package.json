@@ -1,7 +1,7 @@
 {
-  "name": "proto-mvc",
-  "version": "0.3.1",
-  "description": "Classless extremely lite Prototypal JavaScript Framework, using MVC architectual pattern.",
+  "name": "proto-lib-node",
+  "version": "0.3.2",
+  "description": "Classless extremely lite Prototypal JavaScript Library, using MVC architectual pattern.",
   "main": "lib/index.js",
   "engines": {
     "node": ">=6.1.0"
