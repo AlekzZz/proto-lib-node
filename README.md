@@ -1,2 +1,2 @@
-# proto-mvc
-Classless prototypal MVC
+# proto-lib-node
+Classless prototypal MVC Library for node.
