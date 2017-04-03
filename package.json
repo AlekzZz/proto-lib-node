@@ -1,6 +1,6 @@
 {
   "name": "proto-lib-node",
-  "version": "0.3.5",
+  "version": "0.3.6",
   "description": "Classless extremely lite Prototypal JavaScript Library, using MVC architectual pattern.",
   "main": "lib/index.js",
   "engines": {
@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AlekzZz/proto-mvc.git"
+    "url": "git+https://github.com/AlekzZz/proto-lib-node.git"
   },
   "keywords": [
     "JS",
