@@ -1,13 +1,13 @@
 {
   "name": "proto-lib-node",
-  "version": "0.3.6",
+  "version": "0.3.7",
   "description": "Classless extremely lite Prototypal JavaScript Library, using MVC architectual pattern.",
   "main": "lib/index.js",
   "engines": {
     "node": ">=6.1.0"
   },
   "scripts": {
-    "clean": "rm -rf ./node_modules ./dist/* && npm cache clear",
+    "clean": "rm -rf ./node_modules && npm cache clear",
     "setup": "yarn cache clean && yarn",
     "start": "parallelshell \"gulp dev\" \"gulp test\"",
     "test": "gulp test",
@@ -18,20 +18,13 @@
     "type": "git",
     "url": "git+https://github.com/AlekzZz/proto-lib-node.git"
   },
-  "keywords": [
-    "JS",
-    "Tiny",
-    "Framework",
-    "MVC",
-    "Prototypal",
-    "Classless"
-  ],
+  "keywords": [ "JS", "Tiny", "Framework", "MVC", "Prototypal", "Classless"],
   "author": "“Aleksandr <“alekzzz@gmail.com”> (http://roundplus.net)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/AlekzZz/proto-mvc/issues"
+    "url": "https://github.com/AlekzZz/proto-lib-node/issues"
   },
-  "homepage": "https://github.com/AlekzZz/proto-mvc#readme",
+  "homepage": "https://github.com/AlekzZz/proto-lib-node#readme",
   "dependencies": {
     "babel-eslint": "^7.1.1",
     "body-parser": "^1.12.4",
@@ -44,7 +37,7 @@
     "gulp-mocha": "^4.0.1",
     "mocha": "^3.2.0",
     "run-sequence": "^1.2.2",
-    "sinon": "^1.15.4",
+    "sinon": "^2.1.0",
     "sinon-chai": "^2.8.0",
     "sinon-promise": "^0.1.3"
   }
