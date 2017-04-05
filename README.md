@@ -69,5 +69,5 @@ const myControllerInstance = MyController({
 */
 
 myControllerInstance.myMethod(); // will output "a b2"
-myControllerInstance.myMethod2(); // will output "a b c"
+myControllerInstance.myMethod2(); // will output "a b2 c"
 ```
