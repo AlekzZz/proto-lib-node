@@ -1,6 +1,6 @@
 {
   "name": "proto-lib-node",
-  "version": "0.3.7",
+  "version": "0.4.0",
   "description": "Classless extremely lite Prototypal JavaScript Library, using MVC architectual pattern.",
   "main": "lib/index.js",
   "engines": {
@@ -18,7 +18,14 @@
     "type": "git",
     "url": "git+https://github.com/AlekzZz/proto-lib-node.git"
   },
-  "keywords": [ "JS", "Tiny", "Framework", "MVC", "Prototypal", "Classless"],
+  "keywords": [
+    "JS",
+    "Tiny",
+    "Framework",
+    "MVC",
+    "Prototypal",
+    "Classless"
+  ],
   "author": "“Aleksandr <“alekzzz@gmail.com”> (http://roundplus.net)",
   "license": "MIT",
   "bugs": {
