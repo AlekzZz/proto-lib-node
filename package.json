@@ -1,6 +1,6 @@
 {
   "name": "proto-lib-node",
-  "version": "0.4.2",
+  "version": "0.4.3",
   "description": "Classless extremely lite Prototypal JavaScript Library, using MVC architectual pattern.",
   "main": "lib/index.js",
   "engines": {
@@ -35,7 +35,7 @@
   "dependencies": {
     "babel-eslint": "^7.1.1",
     "body-parser": "^1.12.4",
-    "chai": "^3.0.0",
+    "chai": "^4.0.0",
     "eslint": "^3.13.1",
     "express": "^4.12.4",
     "extend": "^3.0.0",
